@@ -7,11 +7,12 @@ plugins {
 group = 'com.booksuport'
 version = '0.0.1-SNAPSHOT'
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
-}
+// 로컬설치된 jdk 사용
+// java {
+//     toolchain {
+//         languageVersion = JavaLanguageVersion.of(17)
+//     }
+// }
 
 repositories {
     mavenCentral()
